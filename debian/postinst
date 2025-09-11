@@ -1,2 +1,2 @@
 #!/bin/bash
-ln -sf /opt/sagemath/bin/sage /usr/bin/sage
+ln -sf @@PREFIX@@/bin/sage /usr/bin/sage

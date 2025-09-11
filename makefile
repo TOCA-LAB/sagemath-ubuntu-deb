@@ -59,6 +59,7 @@ $(DEBIAN_DIR)/control: prepare
 	mkdir -p $(DEBIAN_DIR)
 	cp debian/control $(DEBIAN_DIR)/control
 	cp debian/postinst $(DEBIAN_DIR)/postinst
+	sed -i "s|@@PREFIX@@|$(PREFIX)|" $(DEBIAN_DIR)/postinst
 	chmod 755 $(DEBIAN_DIR)/postinst
 
 # 7. Build Debian package
