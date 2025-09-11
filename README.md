@@ -26,7 +26,7 @@ sudo apt install automake bc binutils bzip2 ca-certificates cliquer cmake curl e
 Then clone this repository and build it:
 
 ```bash
-git clone git@github.com:TOCA-LAB/sagemath-ubuntu-deb.git
+git clone https://github.com/TOCA-LAB/sagemath-ubuntu-deb.git
 cd sagemath-ubuntu-deb
 make
 ```
