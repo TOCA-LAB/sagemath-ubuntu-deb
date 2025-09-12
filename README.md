@@ -42,12 +42,7 @@ it locally), you can install it as follows.
 First, navigate to the directory containing the `.deb` file and run:
 
 ```bash
-sudo dpkg -i sagemath*.deb
-```
-If there are missing dependencies, you can resolve them by running:
-
-```bash
-sudo apt install -f
+sudo dpkg -i sagemath*.deb || sudo apt install -f -y
 ```
 
 ✅ Once the installation is complete, SageMath will be available under the
